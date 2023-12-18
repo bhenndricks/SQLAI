@@ -32,12 +32,36 @@ The application combines the power of OpenAI's GPT-3.5 model and Oracle database
    
    Clone the Oracle Query Generator repository to your local machine.
 
+2. **Setting up a Virtual Environment**:
+
+   It's recommended to use a virtual environment to avoid conflicts with other projects or system-wide Python packages.
+
+   - To create a virtual environment, navigate to the project directory and run:
+
+     ```bash
+     python -m venv venv
+     ```
+
+   - To activate the virtual environment:
+
+     On Windows, run:
+
+     ```bash
+     venv\\Scripts\\activate
+     ```
+
+     On Unix or MacOS, run:
+
+     ```bash
+     source venv/bin/activate
+     ```
+
 2. **Install Dependencies**:
 
    Use pip to install the necessary Python packages:
 
-   ```bash
-   pip install streamlit cx_Oracle openai python-dotenv
+   ```
+   pip install -r requirments.txt
     ```
 
 ### Environment Setup:
